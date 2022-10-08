@@ -7,25 +7,29 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.container .bloc-md p{
+
+.text-under-contact{
+    font-size: 18px;
+    margin-left: 32px;
+    margin-right: 14px;
+}
+
+.col-sm-4 .text-center p {
     font-size: 14px;
 }
 
-.container .bloc-lg {
-    font-size: 14px;
-}
-
-.row .voffset-lg .voffset p {
+.col-xs-12 .col-md-8 .col-md-offset-2 .text-center p {
     font-size: 16px;
 }
 
-.text-center .white p {
+.col-sm-12 p{
     font-size: 14px;
 }
 
-.text-under-contact {
-    font-size: 21px;
+.col-sm-6 p{
+    font-size: 14px;
 }
+
 
 a,
 button {
