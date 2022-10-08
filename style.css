@@ -7,6 +7,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.container .bloc-md p{
+    font-size: 14px;
+}
+
+.container .bloc-lg {
+    font-size: 14px;
+}
+
+.row .voffset-lg .voffset p {
+    font-size: 16px;
+}
+
+.text-center .white p {
+    font-size: 14px;
+}
+
+.text-under-contact {
+    font-size: 21px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -18,6 +38,7 @@ a:hover {
     cursor: pointer;
 }
 
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -26,6 +47,7 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
+
 
 .bloc {
     width: 100%;
@@ -44,6 +66,7 @@ a:hover {
     padding-right: 0;
 }
 
+
 .bloc-lg {
     padding: 100px 50px;
 }
@@ -55,6 +78,7 @@ a:hover {
 .bloc-sm {
     padding: 20px 50px;
 }
+
 
 .bg-center,
 .bg-l-edge,
@@ -652,6 +676,10 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+.container .bloc-sm p{
+    font-size: 14px;
 }
 
 .container {
